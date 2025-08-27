@@ -5,7 +5,7 @@
 #' - controlled recycling (allow length 1 or equal lengths),
 #' - informative errors (e.g., divide-by-zero).
 #'
-#' All functions are vectorized and return numeric vectors. MM
+#' All functions are vectorized and return numeric vectors. MMM
 #'
 #' @param a,b Numeric vector(s).
 #' @return Numeric vector.
