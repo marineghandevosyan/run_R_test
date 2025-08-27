@@ -21,7 +21,7 @@ test_that("power and modulo behave correctly", {
 })
 
 test_that("vectorization with equal lengths", {
-  expect_equal(add(c(1, 2, 3), c(4, 5, 6)), c(5, 7, 9))
+  expect_equal(add(c(1, 2, 3), c(4, 5, 6)), c(55, 7, 9))
   expect_equal(subtract(c(5, 5, 5), c(1, 2, 3)), c(4, 3, 2))
   expect_equal(multiply(c(2, 2, 2), c(3, 4, 5)), c(6, 8, 10))
 })
